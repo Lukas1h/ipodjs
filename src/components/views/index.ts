@@ -4,6 +4,7 @@ export { default as AlbumsView } from './AlbumsView';
 export { default as ArtistsView } from './ArtistsView';
 export { default as ArtistView } from './ArtistView';
 export { default as BrickGameView } from './BrickGameView';
+export { default as GameView2048 } from './GameView2048';
 export { default as CoverFlowView } from './CoverFlowView';
 export { default as GamesView } from './GamesView';
 export { default as HomeView } from './HomeView';
@@ -53,6 +54,7 @@ export const ViewOptions: Record<string, ViewOption> = {
   playlist: { id: 'playlist', title: 'Playlist', type: WINDOW_TYPE.FULL },
   search: { id: 'search', title: 'Search', type: WINDOW_TYPE.FULL },
   brickGame: { id: 'brickGame', title: 'Brick', type: WINDOW_TYPE.FULL },
+  game2048: { id: 'game2048', title: 'Game', type: WINDOW_TYPE.FULL },
 
   // CoverFlow view
   coverFlow: {
